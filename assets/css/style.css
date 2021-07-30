@@ -1,0 +1,41 @@
+.circle-yellow{
+    width: 90px;
+    height:90px;
+    border-radius:50%;
+    background-color: yellow;
+    top:50px;
+    left: 84px;
+}
+@media (min-width:992px) and (max-width:1199px){
+    
+    .circle-yellow{
+        top: 44px;
+        left: 74px;
+        width: 80px;
+        height:80px;
+    }
+
+}
+@media (min-width:768px) and (max-width:991px){
+
+    .circle-yellow{
+        top: 33px;
+        left: 55px;
+        width: 59px;
+        height: 59px;
+    }
+
+}
+@media (max-width:767px){
+
+    .container{
+        max-width: 100%;
+    }
+    .circle-yellow{
+        top: 4.6vw;
+        left: 7.6vw;
+        width: 7.9vw;
+        height: 7.9vw;
+    }
+
+}
